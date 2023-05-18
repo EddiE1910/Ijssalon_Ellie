@@ -6,13 +6,14 @@ def aanbieding_1(smaak, prijs, korting):
     korting = prijs - bedrag
     return f"Vandaag in de aanbieding: emmertje ijs (1 liter) in de smaak {smaak}, van {prijs} euro voor {korting} euro."
 
+print()
 print(aanbieding_1("aardbei", 4, 0.1 ))
 print()
 
 # Week inkomsten
 def inkomsten_totaal(inkomsten, btw):
     inkomsten = sum(inkomsten)
-    return f"Het totaal van alle inkomsten van deze week is {inkomsten} euro, waarover {btw} betaald dient te worden."
+    return f"Het totaal van alle inkomsten van deze week is {inkomsten} euro, waarover {btw} euro btw betaald dient te worden."
     
 
 inkomsten_dagelijks = [220, 430, 125, 160, 205, 90, 345]
