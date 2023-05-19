@@ -13,7 +13,7 @@ inkomsten = {
     "Aardbeien-ijs-totaal\t" : 1000,
     "Vanille-ijs-totaal\t"   : 2000,
     "Chocolade-ijs-totaal\t" : 1500,
-    "Waterijsjes-totaal\t"   : 750
+    "Waterijsjes-totaal\t"   : 750 
 }
 
 # Totaal
